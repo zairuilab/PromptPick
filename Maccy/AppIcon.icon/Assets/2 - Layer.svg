@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <title>PromptPick Prompt and Bookmark Layer</title>
+  <rect x="350" y="500" width="324" height="58" rx="29" fill="#2563EB"/>
+  <rect x="350" y="604" width="364" height="58" rx="29" fill="#2563EB"/>
+  <path d="M590 680h126v178l-63-48-63 48V680Z" fill="#2563EB"/>
+</svg>
