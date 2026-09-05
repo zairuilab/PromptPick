@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest an improvement to the PromptPick workflow
+labels: [enhancement]
+body:
+  - type: checkboxes
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and did not find the same request.
+          required: true
+  - type: textarea
+    attributes:
+      label: Problem
+      description: What task are you trying to complete, and where does the current workflow break down?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposed experience
+      description: Describe the smallest change that would solve the problem.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Alternatives considered
+      description: What workaround do you use today?

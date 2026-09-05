@@ -1,0 +1,12 @@
+xcuserdata/
+Maccy.xcodeproj/project.xcworkspace/xcshareddata
+.idea
+.DS_Store
+Maccy/.DS_Store
+.derivedData/
+.derivedData*/
+QA/DerivedData*/
+QA/final-package*/
+QA/*.profraw
+QA/*.log
+QA/**/*.xcresult/

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <title>PromptPick Clipboard Layer</title>
+  <path d="M396 306v-42c0-40 32-72 72-72h88c40 0 72 32 72 72v42h42c28 0 50 22 50 50v58c0 28-22 50-50 50H354c-28 0-50-22-50-50v-58c0-28 22-50 50-50h42Z" fill="#2563EB"/>
+  <circle cx="512" cy="266" r="28" fill="#182033"/>
+</svg>

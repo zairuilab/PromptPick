@@ -1,0 +1,47 @@
+name: Bug report
+description: Report a reproducible PromptPick problem
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve PromptPick. Remove passwords, tokens, company data, and private clipboard content before submitting.
+  - type: checkboxes
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and did not find the same problem.
+          required: true
+        - label: I removed sensitive content from screenshots and logs.
+          required: true
+  - type: input
+    attributes:
+      label: PromptPick version
+      placeholder: e.g. 0.1.6 (8)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: macOS version
+      placeholder: e.g. macOS 15.6
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Describe the actual result and the result you expected.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open PromptPick with …
+        2. Select …
+        3. Observe …
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Add a sanitized screenshot, screen recording, or log if useful.
