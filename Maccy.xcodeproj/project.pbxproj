@@ -22,7 +22,6 @@
 		2F162E802F1E7B30001FBAFF /* PasteStackPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F162E7F2F1E7B28001FBAFF /* PasteStackPreviewView.swift */; };
 		2F1A79C02C6DFB7800C98EBD /* SearchVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A79BF2C6DFB7800C98EBD /* SearchVisibility.swift */; };
 		2F1B61CD301BCFF2000905F9 /* ModifierFlags+Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B61CC301BCFD2000905F9 /* ModifierFlags+Current.swift */; };
-		2F39CB042AD9A93C00B749FD /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 2F39CB032AD9A93C00B749FD /* Sparkle */; };
 		2F39CB0A2AD9AE1F00B749FD /* Settings in Frameworks */ = {isa = PBXBuildFile; productRef = 2F39CB092AD9AE1F00B749FD /* Settings */; };
 		2F578C3D2EFFE8400088B759 /* ItemsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F578C3C2EFFE8400088B759 /* ItemsProtocol.swift */; };
 		2F578C3F2EFFE8720088B759 /* SlideoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F578C3E2EFFE8720088B759 /* SlideoutController.swift */; };
@@ -73,6 +72,7 @@
 		DA20FA722B082DD600056DD5 /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20FA712B082DD600056DD5 /* Notifier.swift */; };
 		DA20FA742B082E0100056DD5 /* Knock.caf in Resources */ = {isa = PBXBuildFile; fileRef = DA20FA732B082E0100056DD5 /* Knock.caf */; };
 		DA20FA762B082E0800056DD5 /* Write.caf in Resources */ = {isa = PBXBuildFile; fileRef = DA20FA752B082E0800056DD5 /* Write.caf */; };
+		C1A000010000000000000010 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C1A000010000000000000011 /* PrivacyInfo.xcprivacy */; };
 		DA20FA782B082E1A00056DD5 /* NSSound+Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20FA772B082E1A00056DD5 /* NSSound+Named.swift */; };
 		DA243D122C2F64830012A27F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA243D112C2F64820012A27F /* ContentView.swift */; };
 		DA243D142C2F66DD0012A27F /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA243D132C2F66DD0012A27F /* Storage.swift */; };
@@ -536,6 +536,7 @@
 		DAB6266E2CAD7FD6001B720E /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/PreviewItemView.strings; sourceTree = "<group>"; };
 		DAB6266F2CAD7FDA001B720E /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DAB8CE4024E3677F00A2500E /* Maccy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Maccy.entitlements; sourceTree = "<group>"; };
+		C1A000010000000000000011 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		DABDE97E2974706C005B32E9 /* KeyboardLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayout.swift; sourceTree = "<group>"; };
 		DAC14123232367B200FCFA30 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		DAC929D6297A0E8B00814F19 /* NSPasteboard.PasteboardType+Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPasteboard.PasteboardType+Types.swift"; sourceTree = "<group>"; };
@@ -583,7 +584,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F39CB042AD9A93C00B749FD /* Sparkle in Frameworks */,
 				DA009955256414E60030E697 /* KeyboardShortcuts in Frameworks */,
 				DAC0CA3E2C88E7A4003BF498 /* Fuse in Frameworks */,
 				DA5F46512020E9FB00425C11 /* Carbon.framework in Frameworks */,
@@ -849,6 +849,7 @@
 				DA243D132C2F66DD0012A27F /* Storage.swift */,
 				DA81D673252A056B009977BC /* Throttler.swift */,
 				DAB8CE4024E3677F00A2500E /* Maccy.entitlements */,
+				C1A000010000000000000011 /* PrivacyInfo.xcprivacy */,
 				DAEE384D1E3DBEB100DD2966 /* Info.plist */,
 				42E9C328301B7F9C00B6B55B /* AppIcon.icon */,
 				DA6373971E4AB9BB00263391 /* Assets.xcassets */,
@@ -914,7 +915,6 @@
 				DA5154D72564102900C01004 /* Sauce */,
 				DA009946256414800030E697 /* SwiftHEXColors */,
 				DA009954256414E60030E697 /* KeyboardShortcuts */,
-				2F39CB032AD9A93C00B749FD /* Sparkle */,
 				2F39CB092AD9AE1F00B749FD /* Settings */,
 				DA13D7C92C19F52B00FA9E23 /* LaunchAtLogin */,
 				DA13D7CF2C19F8C300FA9E23 /* Defaults */,
@@ -1036,6 +1036,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A000010000000000000010 /* PrivacyInfo.xcprivacy in Resources */,
 				DA20FA762B082E0800056DD5 /* Write.caf in Resources */,
 				DA6373981E4AB9BB00263391 /* Assets.xcassets in Resources */,
 				DAA365D12C4C147400A394F8 /* PinsSettings.strings in Resources */,

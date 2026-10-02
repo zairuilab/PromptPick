@@ -37,6 +37,16 @@
   <img src="docs/images/promptpick-variable-fill.jpg" alt="PromptPick 的变量填写界面：左侧填写本次内容，右侧实时预览最终 Prompt" width="760">
 </p>
 
+### 产品示意图
+
+<p align="center">
+  <img src="docs/images/store/01-prompt-assets.jpg" alt="PromptPick 按场景管理 Prompt" width="760">
+</p>
+
+<p align="center">
+  <img src="docs/images/store/02-variable-prompts.jpg" alt="PromptPick 引导填写变量 Prompt" width="760">
+</p>
+
 变量不是让你学习一套新语法。你看到的是“这次要填什么”，右侧会实时展示“最终会粘贴什么”。原模板不会被修改。
 
 ## 当前版本能做什么
@@ -53,6 +63,8 @@
 ## 下载试用
 
 前往 [GitHub Releases](https://github.com/zairuilab/PromptPick/releases) 下载最新 Dogfood 版本。
+
+Mac App Store 版本正在准备中，商店构建与审核资料见 [`docs/app-store/README.md`](docs/app-store/README.md)。
 
 当前安装包使用临时签名，尚未经过 Apple 公证。首次运行时，在 Finder 中右键 App 选择“打开”；受公司 MDM 管理的 Mac 可能禁止运行。
 

@@ -1,6 +1,5 @@
 import Defaults
 import KeyboardShortcuts
-import Sparkle
 import SwiftUI
 
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -39,11 +38,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     #if DEBUG
     if CommandLine.arguments.contains("enable-testing") {
-      SPUUpdater(hostBundle: Bundle.main,
-                 applicationBundle: Bundle.main,
-                 userDriver: SPUStandardUserDriver(hostBundle: Bundle.main, delegate: nil),
-                 delegate: nil)
-      .automaticallyChecksForUpdates = false
       // Start from a clean slate for the isolated testing preferences.
       UserDefaults.standard.removePersistentDomain(forName: Defaults.Keys.testingSuiteName)
     }

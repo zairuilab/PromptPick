@@ -5,6 +5,7 @@ Maccy.xcodeproj/project.xcworkspace/xcshareddata
 Maccy/.DS_Store
 .derivedData/
 .derivedData*/
+build/
 QA/DerivedData*/
 QA/final-package*/
 QA/*.profraw
