@@ -64,7 +64,7 @@
 
 前往 [GitHub Releases](https://github.com/zairuilab/PromptPick/releases) 下载最新 Dogfood 版本。
 
-Mac App Store 版本正在准备中，商店构建与审核资料见 [`docs/app-store/README.md`](docs/app-store/README.md)。
+Mac App Store 产品记录已创建（App ID `6818366986`），`0.2.0 (2)` 已通过 Xcode Organizer 上传；商店截图和最终审核资料仍在补齐，过程记录见 [`docs/app-store/README.md`](docs/app-store/README.md)。
 
 当前安装包使用临时签名，尚未经过 Apple 公证。首次运行时，在 Finder 中右键 App 选择“打开”；受公司 MDM 管理的 Mac 可能禁止运行。
 

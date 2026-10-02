@@ -22,9 +22,9 @@ pkgutil --check-signature build/AppStoreRelease/export/PromptPick.pkg
 
 ## 当前提交前阻塞项
 
-1. App Store Connect 产品记录与 Bundle ID 需确认已创建并关联。
+1. App Store Connect 产品记录已创建：PromptPick，App ID `6818366986`，Bundle ID `com.zairuilab.promptpick`。
 2. 支持网址与隐私政策网址需放到真实可访问的 PromptPick 页面，不能用临时占位地址。
-3. App Store 截图、App 隐私问卷、年龄分级和审核备注需在 Connect 中填写。
+3. `0.2.0 (2)` 已上传并等待处理；App Store 截图、年龄分级和审核备注仍需在 Connect 中填写。
 4. 上传后先做 TestFlight 内部测试，再提交审核。
 
 ## 商店文案初稿
